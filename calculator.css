@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.upper{
+    background-color: rgb(176, 173, 173);
+    width:250px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#inner{
+    background-color: rgb(200, 248, 200);
+    width:180px;
+    height:50px;
+}
+
+.lower{
+    display: grid;
+    width: 250px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    height:300px;
+    background-color: rgb(187, 202, 243);
+    /* gap:10px; */
+    
+    
+}
+
+.btn{
+    margin: 6px;
+    width:40px;
+    background-color: rgb(89, 164, 244);
+    border: none;
+    text-align: center;
+}
+
+.org{
+    grid-row: span 2;
+    background-color: orange;
+}
+
+.zero{
+    grid-column: span 2;
+    background-color: aqua;
+    width:100px;
+}
